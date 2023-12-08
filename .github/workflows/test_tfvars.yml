@@ -3,6 +3,7 @@ name: Testt tfvars
 on:
   push:
     branches: ['dev','uat']
+    
 jobs:
   dev-env-print:
     runs-on: ubuntu-latest
