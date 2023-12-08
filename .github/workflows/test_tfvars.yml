@@ -2,7 +2,9 @@ name: Testt tfvars
 
 on:
   push:
-    branches: ['dev','uat']
+    branches: 
+      - 'dev'
+      - 'uat'
     
 jobs:
   dev-env-print:
