@@ -5,6 +5,10 @@ on:
     branches: 
       - 'dev'
       - 'uat'
+  pull_request:
+      branches: 
+      - 'dev'
+      - 'uat'
     
 jobs:
   dev-env-print:
