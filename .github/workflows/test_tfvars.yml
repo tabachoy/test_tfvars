@@ -1,0 +1,4 @@
+name: Testt tfvars
+
+on:
+  branches:
